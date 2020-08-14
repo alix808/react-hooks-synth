@@ -23,6 +23,7 @@ canvas {
 section {
   width: 1024px;
   display: flex;
+  align-items: center;
 }
 
 @media (max-width: 414px) {
@@ -68,4 +69,17 @@ input[type='range']:focus {
 
 input[type='range']::-webkit-slider-thumb {
   cursor: pointer;
+}
+
+select {
+  margin-left: 12px;
+  background: var(--dark);
+  border-radius: 4px;
+  height: 36px;
+  width: 106px;
+  color: white;
+}
+
+select:focus {
+  outline: none;
 }

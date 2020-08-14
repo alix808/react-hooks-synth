@@ -2,6 +2,7 @@ import React from 'react';
 import SynthState from './context/synth/SynthState';
 import Init from './comps/Init';
 import Oscillator from './comps/Oscillator';
+import WaveSelector from './comps/WaveSelector';
 import SpectrumAnalyser from './comps/SpectrumAnalyser';
 import './App.css';
 
@@ -10,6 +11,7 @@ const App = () => (
     <section>
       <Init />
       <Oscillator />
+      <WaveSelector />
     </section>
     <SpectrumAnalyser />
   </SynthState>
