@@ -57,3 +57,15 @@ button {
 input {
   margin-left: 12px;
 }
+
+input[type='range'] {
+  background: var(--dark);
+}
+
+input[type='range']:focus {
+  outline: none;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  cursor: pointer;
+}
