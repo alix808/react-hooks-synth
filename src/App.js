@@ -4,6 +4,7 @@ import Init from './comps/Init';
 import Oscillator from './comps/Oscillator';
 import WaveSelector from './comps/WaveSelector';
 import SpectrumAnalyser from './comps/SpectrumAnalyser';
+import Github from './comps/Github';
 import './App.css';
 
 const App = () => (
@@ -12,6 +13,7 @@ const App = () => (
       <Init />
       <Oscillator />
       <WaveSelector />
+      <Github />
     </section>
     <SpectrumAnalyser />
   </SynthState>

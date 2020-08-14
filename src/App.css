@@ -78,8 +78,16 @@ select {
   height: 36px;
   width: 106px;
   color: white;
+  cursor: pointer;
 }
 
 select:focus {
   outline: none;
+}
+
+i {
+  margin-left: 12px;
+  font-size: 36px;
+  color: var(--light);
+  cursor: pointer;
 }
